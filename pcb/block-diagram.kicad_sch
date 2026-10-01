@@ -1,0 +1,335 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7404b0aa-8cee-4e4e-a308-50ea6fe894bc")
+	(paper "A4")
+	(title_block
+		(title "ESP32 MINI DEV BOARD")
+		(date "2026-09-30")
+		(rev "1.0")
+		(company "NELSON RODRIGUEZ (LENZSEG)")
+		(comment 1 "BLOCK DIAGRAM")
+	)
+	(lib_symbols)
+	(text_box "SIGNAL PATH"
+		(exclude_from_sim no)
+		(at 200.66 131.6917 0)
+		(size 40.64 5.4683)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0ac20045-cf7d-413a-9e50-7ea4ade5acd8")
+	)
+	(text_box "USB-C"
+		(exclude_from_sim no)
+		(at 45.72 35.1717 0)
+		(size 40.64 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2bf3e1f9-4fd2-412f-abb8-4120c5d6dfcd")
+	)
+	(text_box "RST BTN"
+		(exclude_from_sim no)
+		(at 111.76 96.1317 0)
+		(size 40.64 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4b6f6de8-ea25-4b08-aaf6-b88482f0f176")
+	)
+	(text_box "XTAL"
+		(exclude_from_sim no)
+		(at 157.48 96.1317 0)
+		(size 40.64 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "79dc6f41-cfa3-4c17-8f21-1fa8fe18d2f5")
+	)
+	(text_box "BOOT BTN"
+		(exclude_from_sim no)
+		(at 66.04 96.1317 0)
+		(size 40.64 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7e8c549d-e6be-4828-bddd-cafba43bfb1f")
+	)
+	(text_box "MCU"
+		(exclude_from_sim no)
+		(at 157.48 65.6517 0)
+		(size 40.64 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "84266d86-0698-47d3-bb3b-527802a09a07")
+	)
+	(text_box "GPIO PIN HEADERS"
+		(exclude_from_sim no)
+		(at 203.2 96.1317 0)
+		(size 40.64 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 255 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8c089e98-fdf3-432d-811b-c16b74c925b6")
+	)
+	(text_box "PROTECTION"
+		(exclude_from_sim no)
+		(at 101.6 35.1717 0)
+		(size 40.64 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a9bbbdf4-9328-4c40-b77d-6b428bf28773")
+	)
+	(text_box "LDO"
+		(exclude_from_sim no)
+		(at 157.48 35.1717 0)
+		(size 40.64 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b96c9502-4276-4f53-8e1d-56680ebf1567")
+	)
+	(text_box "POWER"
+		(exclude_from_sim no)
+		(at 200.66 123.6834 0)
+		(size 40.64 5.4683)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.1019607843)
+		)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e6c78eb6-5ed1-49c0-98df-a3ec574ae953")
+	)
+	(polyline
+		(pts
+			(xy 177.8 80.8917) (xy 177.8 96.1317)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "1a556d14-49d6-4336-ae92-2b773d4bbd52")
+	)
+	(polyline
+		(pts
+			(xy 132.08 88.5117) (xy 177.8 88.5117)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "5e6fac7a-9c76-4502-8d0c-019eaf6113f1")
+	)
+	(polyline
+		(pts
+			(xy 177.8 50.4117) (xy 177.8 65.6517)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "5face05f-7033-4033-86c1-c0f65683a40c")
+	)
+	(polyline
+		(pts
+			(xy 86.36 42.7917) (xy 101.6 42.7917)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "72368b1f-73a8-47f2-ac27-27dfa4196f6a")
+	)
+	(polyline
+		(pts
+			(xy 223.52 88.5117) (xy 223.52 96.1317)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "7bff1390-8f73-43e1-a537-bc4cccf88e52")
+	)
+	(polyline
+		(pts
+			(xy 142.24 42.7917) (xy 157.48 42.7917)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "9a128425-4c13-4057-a0eb-1a04714a1b47")
+	)
+	(polyline
+		(pts
+			(xy 177.8 88.5117) (xy 223.52 88.5117)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "a19d631b-e223-4251-829d-adb8c6917dee")
+	)
+	(polyline
+		(pts
+			(xy 132.08 88.5117) (xy 132.08 96.1317)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "ac07eb78-944c-425c-b871-71eca8105508")
+	)
+	(polyline
+		(pts
+			(xy 86.36 88.5117) (xy 86.36 96.1317)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "d3d2b752-99a2-497a-8a7f-7d44e99d4030")
+	)
+	(polyline
+		(pts
+			(xy 86.36 88.5117) (xy 132.08 88.5117)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "e482972b-f7f1-48c7-a142-f8df840f54a9")
+	)
+)
