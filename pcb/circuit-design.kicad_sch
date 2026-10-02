@@ -1635,6 +1635,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AP2112K-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2112K-3.3"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP2112K-3.3_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2112K-3.3_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1878,13 +2072,40 @@
 		)
 		(uuid "108d0986-4aa3-4e4d-8f6e-cc3fdd1f66d6")
 	)
-	(text "USB Power Entry"
+	(rectangle
+		(start 156.464 17.272)
+		(end 220.98 61.468)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bc5cc313-c9f9-4e8f-8f3a-8826bc87ff70")
+	)
+	(text "3.3V LDO"
 		(exclude_from_sim no)
-		(at 35.306 22.098 0)
+		(at 169.672 23.876 0)
 		(effects
 			(font
-				(face "FreeSans")
+				(face "KiCad Font")
 				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "32838bd1-3a0f-4304-84f3-57767359b585")
+	)
+	(text "USB Power Entry"
+		(exclude_from_sim no)
+		(at 39.116 21.336 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 		)
 		(uuid "34559700-2581-4ddf-9ebe-9b1cf45626d9")
@@ -1900,6 +2121,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fed21e8-e952-41b9-81dc-c2174e8de353")
+	)
+	(junction
+		(at 177.8 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d19e772-ac02-4acf-8726-3ef158ea6637")
 	)
 	(junction
 		(at 58.42 36.83)
@@ -1952,6 +2179,16 @@
 			(type default)
 		)
 		(uuid "023aaf47-fa47-404d-bc4e-e21bc249da29")
+	)
+	(wire
+		(pts
+			(xy 177.8 38.1) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12accf15-fdd3-44b2-8a48-2806cc3b0169")
 	)
 	(wire
 		(pts
@@ -2025,6 +2262,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 35.56) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874ff682-b141-40fd-a6e1-9604408c1dbf")
+	)
+	(wire
+		(pts
 			(xy 52.07 54.61) (xy 52.07 57.15)
 		)
 		(stroke
@@ -2032,6 +2279,16 @@
 			(type default)
 		)
 		(uuid "8e09f6fa-6f77-438c-a35a-b9d377c26a3c")
+	)
+	(wire
+		(pts
+			(xy 177.8 35.56) (xy 181.61 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cbca50-085b-4904-be2d-185a5d66d603")
 	)
 	(wire
 		(pts
@@ -2095,6 +2352,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 38.1) (xy 177.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67a19f9-ec7f-4d4f-911e-3edeffc736b6")
+	)
+	(wire
+		(pts
 			(xy 71.12 41.91) (xy 71.12 68.58)
 		)
 		(stroke
@@ -2132,6 +2399,16 @@
 			(type default)
 		)
 		(uuid "f6ec6cc0-f0a4-4153-ac0b-89ae3853e041")
+	)
+	(wire
+		(pts
+			(xy 207.01 35.56) (xy 196.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bd2b50-06bd-4208-a4d7-2a305bd3f421")
 	)
 	(label "D-"
 		(at 55.88 52.07 0)
@@ -2758,6 +3035,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f49ab28-5a69-44c3-a976-8243eb192fda")
+		(property "Reference" "#PWR09"
+			(at 168.91 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57efba53-41cd-4cf7-8634-cf233d8d9f14")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 95.25 52.07 0)
 		(unit 1)
@@ -2849,6 +3204,177 @@
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 189.23 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8078980d-02ab-49a8-815d-7083a2cccb4e")
+		(property "Reference" "U2"
+			(at 189.23 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 189.23 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 189.23 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 189.23 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ec43366f-552c-4e12-bf5a-565c75f3e843")
+		)
+		(pin "2"
+			(uuid "e3614ca4-b69c-432e-bcee-dd1f6a74900c")
+		)
+		(pin "5"
+			(uuid "f03b6fd6-42f9-4cf4-8be2-025ff7cdac9e")
+		)
+		(pin "4"
+			(uuid "0aa1decf-0e6c-4063-9ac8-dd33a9a5928c")
+		)
+		(pin "1"
+			(uuid "9ee5683b-62c9-4dd4-872e-58bec14ee20b")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 39.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85b76da0-6af6-4989-a1d2-c5f7c77fb104")
+		(property "Reference" "C4"
+			(at 165.1 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 165.1 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 167.9448 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ad3e7e8-5db2-45a8-9d64-609ec091392a")
+		)
+		(pin "2"
+			(uuid "c3cfb366-c222-4d3b-b010-a40c5e04c8f2")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3539,6 +4065,166 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 189.23 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec9744fa-e53f-4d77-b62d-a3df028bc220")
+		(property "Reference" "#PWR010"
+			(at 189.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f38e7a25-00a5-4d9f-aa6b-73094ae105e2")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 207.01 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4d4d68f-b249-46f1-bdf4-3b9734eea7c7")
+		(property "Reference" "C3"
+			(at 210.82 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 210.82 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 207.9752 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86188d83-182e-490b-aa72-2a7ae4a65584")
+		)
+		(pin "2"
+			(uuid "6786efe8-3f52-40bd-a4f8-cac8fb6474da")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 62.23 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -3613,6 +4299,96 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7f49b60-5d8e-4058-9ae4-c6957306cc23")
+		(property "Reference" "#PWR011"
+			(at 207.01 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "739726a7-442d-4b54-9f04-0abab1586202")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(group "LDO_5V-3V3_AP2112K-3.3"
+		(uuid "5d36403e-9199-4ea6-93a5-020132502707")
+		(lib_id "LDO:LDO_5V-3V3_AP2112K-3.3")
+		(members "12accf15-fdd3-44b2-8a48-2806cc3b0169" "32838bd1-3a0f-4304-84f3-57767359b585"
+			"4d19e772-ac02-4acf-8726-3ef158ea6637" "4f49ab28-5a69-44c3-a976-8243eb192fda"
+			"8078980d-02ab-49a8-815d-7083a2cccb4e" "85b76da0-6af6-4989-a1d2-c5f7c77fb104"
+			"874ff682-b141-40fd-a6e1-9604408c1dbf" "95cbca50-085b-4904-be2d-185a5d66d603"
+			"bc5cc313-c9f9-4e8f-8f3a-8826bc87ff70" "c67a19f9-ec7f-4d4f-911e-3edeffc736b6"
+			"ec9744fa-e53f-4d77-b62d-a3df028bc220" "f4d4d68f-b249-46f1-bdf4-3b9734eea7c7"
+			"f7f49b60-5d8e-4058-9ae4-c6957306cc23" "f9bd2b50-06bd-4208-a4d7-2a305bd3f421"
 		)
 	)
 )
