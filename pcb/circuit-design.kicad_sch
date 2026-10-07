@@ -3792,6 +3792,12 @@
 		(uuid "2fc7a1a0-37b7-4ab7-9dde-ed5725adfe1f")
 	)
 	(junction
+		(at 137.16 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b054a0-8887-48ed-b04f-19c89344ff27")
+	)
+	(junction
 		(at 63.5 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3951,7 +3957,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 36.83) (xy 142.24 36.83)
+			(xy 134.62 36.83) (xy 137.16 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4378,6 +4384,16 @@
 			(type default)
 		)
 		(uuid "661da523-9e52-4f93-8bd7-db2ddce63407")
+	)
+	(wire
+		(pts
+			(xy 137.16 36.83) (xy 142.24 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696a81f9-fa37-4739-afc9-b698e9404003")
 	)
 	(wire
 		(pts
@@ -4911,6 +4927,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 29.21) (xy 137.16 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9a52c3-b2b8-4647-acd1-932b8454d72e")
+	)
+	(wire
+		(pts
 			(xy 97.79 153.67) (xy 119.38 153.67)
 		)
 		(stroke
@@ -5368,6 +5394,16 @@
 			(justify right bottom)
 		)
 		(uuid "fe55c316-13db-49e9-92f1-4fb535c69607")
+	)
+	(label "VBUS"
+		(at 71.12 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffc7448d-cd18-48e9-8cde-0caecba8ab58")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9089,7 +9125,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7561d6e-09ca-4875-9d99-05226c73c668")
 		(property "Reference" "#PWR024"
 			(at 238.76 33.02 0)
@@ -9102,14 +9137,15 @@
 				)
 			)
 		)
-		(property "Value" "+VDD"
-			(at 238.76 24.13 0)
+		(property "Value" "+3V3"
+			(at 236.22 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9597,6 +9633,84 @@
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 137.16 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de435a7d-0632-412e-9289-5b6fa4416dc4")
+		(property "Reference" "#FLG03"
+			(at 137.16 27.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 137.16 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 137.16 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2468af70-08d0-491d-b901-5bd33804ea36")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -10382,35 +10496,34 @@
 		(uuid "b196bfbc-324f-4224-9f76-43fa9c416b00")
 		(lib_id "USB:USB-C")
 		(members "00055dad-20f6-4f91-ac51-de71bedb0183" "00abc9ea-e306-43cb-abd4-5f57c8d7cbf1"
-			"023aaf47-fa47-404d-bc4e-e21bc249da29" "048baa21-0d1f-4a66-89e6-55cd6447f077"
-			"08f67366-3720-473e-b240-d99506a04629" "0c528284-0e71-4148-a7e5-0e1979690fe5"
-			"0fed21e8-e952-41b9-81dc-c2174e8de353" "108d0986-4aa3-4e4d-8f6e-cc3fdd1f66d6"
-			"143ffd13-f06f-4064-b9d5-c9984cb7eeaa" "14a7b4c2-e5d3-4db5-9389-eb5b7a9e4b52"
-			"177fddfa-f302-40e9-a528-9ac78543757a" "180ee4b2-6339-4eb0-b8a8-89205cbe4fc2"
-			"1a7b0575-7b2e-40f0-b8cd-0b2bae2f8b02" "1cc6556a-77ab-43f1-9b21-275c1035ee34"
-			"246cfb9b-9812-49bd-97fd-305ba04cd939" "26dd4b66-bb08-4dee-882d-378b23fc5850"
-			"27eaeabf-ee37-40ed-9fbc-5645bee1501b" "34559700-2581-4ddf-9ebe-9b1cf45626d9"
-			"41de8ae7-86af-4a99-99f6-13f316662bb2" "47a660c2-07fa-4dbe-9b09-b5f3ae683d3d"
-			"4fc88ab8-dd9a-4bd7-8dec-f329cfe80aad" "526d6fe9-7f14-43f2-bc10-2069be36978e"
-			"5c335958-84d5-4936-9f20-7276df9f829f" "65e58394-52de-406b-b146-3078f2bcb86f"
-			"72f90e6c-e3cc-4d0f-bcdd-c3559b51d7e0" "781c0fce-efcf-4942-8498-abc0292f6157"
-			"7856f907-379b-44da-b49f-42549e59b454" "7a0fe1b6-9d05-4ea9-831e-df5ab7ad1bb8"
-			"8190f2dd-52c2-4efc-a5e8-2697c6ad4e62" "8d6040ad-4fc4-4167-85ce-4dc70573b0bf"
-			"8e09f6fa-6f77-438c-a35a-b9d377c26a3c" "98d8d781-fde2-4019-9060-750588eabe68"
-			"9a575da5-c215-452f-9243-eb6221a802b9" "9c63902e-0625-4341-9f7c-763b8a58bcfe"
-			"9cce7fe8-534c-47ad-bc64-68d25e7d38b5" "a0e4c1f9-86ff-4f58-9010-b646e9119d32"
-			"a6049281-d5ec-49c5-9bb8-7e7304d879d6" "acdb03a5-e711-43cc-9a67-da6e4cf9a0ce"
-			"b2326447-c9c0-4742-ac6c-aa37833a9b6f" "b3a9ec03-9b52-4ddd-8cd8-fc4d371905c9"
-			"b544af39-679f-4eca-bdd9-c6bf903eaf58" "b669cc1b-8b53-4ec2-84ef-4c130549b0d8"
-			"bf2ec98e-a66e-4dd5-ac92-a6931ea69f00" "c045753d-3e93-4863-acec-c8fc76a3422c"
-			"c16bc8fb-b074-4a92-9f15-081ad28c4a2f" "c94eba84-cac5-4427-93a0-cc372906d241"
-			"d1e389ad-2964-4782-9d33-67199fb795b5" "d42078fb-b03d-4c25-96e7-78ecb1c48616"
-			"d67b78b7-cea0-47e3-8a8b-e53bbfbb7826" "d94ebc42-588b-4bf8-8e9d-43d46f55e240"
-			"da530717-81cc-4181-8fc7-7075b539a359" "e4fe6d2d-0203-41f9-9dba-dab7300065da"
-			"e63572ee-47ea-4ac4-b545-aa82264b9cfd" "f19b2b78-721a-4ef0-a690-70d353f7bb76"
-			"f58951b8-b8c6-491a-9c5c-248a8899b94c" "f642de9c-4816-4590-86e2-09bd6230cd96"
-			"f6ec6cc0-f0a4-4153-ac0b-89ae3853e041" "f707cdb3-7ada-454e-9af6-11d77ccc49e9"
-			"fc6ab355-ff98-4473-9de3-ebfa63a92462"
+			"048baa21-0d1f-4a66-89e6-55cd6447f077" "08f67366-3720-473e-b240-d99506a04629"
+			"0c528284-0e71-4148-a7e5-0e1979690fe5" "0fed21e8-e952-41b9-81dc-c2174e8de353"
+			"108d0986-4aa3-4e4d-8f6e-cc3fdd1f66d6" "143ffd13-f06f-4064-b9d5-c9984cb7eeaa"
+			"14a7b4c2-e5d3-4db5-9389-eb5b7a9e4b52" "177fddfa-f302-40e9-a528-9ac78543757a"
+			"180ee4b2-6339-4eb0-b8a8-89205cbe4fc2" "1a7b0575-7b2e-40f0-b8cd-0b2bae2f8b02"
+			"1cc6556a-77ab-43f1-9b21-275c1035ee34" "246cfb9b-9812-49bd-97fd-305ba04cd939"
+			"26dd4b66-bb08-4dee-882d-378b23fc5850" "27eaeabf-ee37-40ed-9fbc-5645bee1501b"
+			"34559700-2581-4ddf-9ebe-9b1cf45626d9" "41de8ae7-86af-4a99-99f6-13f316662bb2"
+			"47a660c2-07fa-4dbe-9b09-b5f3ae683d3d" "4fc88ab8-dd9a-4bd7-8dec-f329cfe80aad"
+			"526d6fe9-7f14-43f2-bc10-2069be36978e" "5c335958-84d5-4936-9f20-7276df9f829f"
+			"65e58394-52de-406b-b146-3078f2bcb86f" "72f90e6c-e3cc-4d0f-bcdd-c3559b51d7e0"
+			"781c0fce-efcf-4942-8498-abc0292f6157" "7856f907-379b-44da-b49f-42549e59b454"
+			"7a0fe1b6-9d05-4ea9-831e-df5ab7ad1bb8" "8190f2dd-52c2-4efc-a5e8-2697c6ad4e62"
+			"8d6040ad-4fc4-4167-85ce-4dc70573b0bf" "8e09f6fa-6f77-438c-a35a-b9d377c26a3c"
+			"98d8d781-fde2-4019-9060-750588eabe68" "9a575da5-c215-452f-9243-eb6221a802b9"
+			"9c63902e-0625-4341-9f7c-763b8a58bcfe" "9cce7fe8-534c-47ad-bc64-68d25e7d38b5"
+			"a0e4c1f9-86ff-4f58-9010-b646e9119d32" "a6049281-d5ec-49c5-9bb8-7e7304d879d6"
+			"acdb03a5-e711-43cc-9a67-da6e4cf9a0ce" "b2326447-c9c0-4742-ac6c-aa37833a9b6f"
+			"b3a9ec03-9b52-4ddd-8cd8-fc4d371905c9" "b544af39-679f-4eca-bdd9-c6bf903eaf58"
+			"b669cc1b-8b53-4ec2-84ef-4c130549b0d8" "bf2ec98e-a66e-4dd5-ac92-a6931ea69f00"
+			"c045753d-3e93-4863-acec-c8fc76a3422c" "c16bc8fb-b074-4a92-9f15-081ad28c4a2f"
+			"c94eba84-cac5-4427-93a0-cc372906d241" "d1e389ad-2964-4782-9d33-67199fb795b5"
+			"d42078fb-b03d-4c25-96e7-78ecb1c48616" "d67b78b7-cea0-47e3-8a8b-e53bbfbb7826"
+			"d94ebc42-588b-4bf8-8e9d-43d46f55e240" "da530717-81cc-4181-8fc7-7075b539a359"
+			"e4fe6d2d-0203-41f9-9dba-dab7300065da" "e63572ee-47ea-4ac4-b545-aa82264b9cfd"
+			"f19b2b78-721a-4ef0-a690-70d353f7bb76" "f58951b8-b8c6-491a-9c5c-248a8899b94c"
+			"f642de9c-4816-4590-86e2-09bd6230cd96" "f6ec6cc0-f0a4-4153-ac0b-89ae3853e041"
+			"f707cdb3-7ada-454e-9af6-11d77ccc49e9" "fc6ab355-ff98-4473-9de3-ebfa63a92462"
 		)
 	)
 	(group "EN_RST"
