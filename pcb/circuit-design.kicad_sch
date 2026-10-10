@@ -3730,7 +3730,7 @@
 		)
 		(uuid "f606ac37-d21a-4f03-a8fb-5ec53034920d")
 	)
-	(text "EN & RST"
+	(text "EN (RST)"
 		(exclude_from_sim no)
 		(at 88.9 105.41 0)
 		(effects
@@ -5165,7 +5165,7 @@
 		)
 		(uuid "5d5f1cce-46ee-4ce2-8eca-8f13dc678223")
 	)
-	(label "EN_RST"
+	(label "EN"
 		(at 124.46 137.16 0)
 		(effects
 			(font

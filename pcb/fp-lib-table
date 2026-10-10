@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CONNECTORS") (type "KiCad") (uri "/home/mixkrip/lenzseg/tools/kicad/libraries/parts/connectors/CONNECTORS.pretty") (options "") (descr ""))
+)

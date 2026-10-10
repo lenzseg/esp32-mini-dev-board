@@ -27,7 +27,7 @@
 	)
 	(sheet
 		(at 27.178 46.482)
-		(size 66.802 3.81)
+		(size 66.802 10.16)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
@@ -55,7 +55,7 @@
 			)
 		)
 		(property "Sheetfile" "block-diagram.kicad_sch"
-			(at 27.178 50.9274 0)
+			(at 27.178 57.2774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -74,8 +74,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 62.23)
-		(size 67.31 3.81)
+		(at 27.432 67.31)
+		(size 67.31 9.652)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -90,7 +90,7 @@
 		)
 		(uuid "781e57be-1a87-472e-89a8-30449ea21b35")
 		(property "Sheetname" "CIRCUIT DESIGN"
-			(at 26.67 61.4676 0)
+			(at 27.432 66.5476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -103,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "circuit-design.kicad_sch"
-			(at 26.67 66.6754 0)
+			(at 27.432 77.5974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
