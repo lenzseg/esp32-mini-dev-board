@@ -5095,7 +5095,7 @@
 		)
 		(uuid "0349cf34-f097-485b-ba2c-c8f532ca3cfa")
 	)
-	(label "D-"
+	(label "USB_IN-"
 		(at 55.88 52.07 0)
 		(effects
 			(font
@@ -5175,7 +5175,7 @@
 		)
 		(uuid "5fbf3fc3-ae7e-4302-8308-8b2fc12ecaa5")
 	)
-	(label "D+"
+	(label "USB_IN+"
 		(at 55.88 54.61 0)
 		(effects
 			(font
