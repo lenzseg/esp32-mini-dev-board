@@ -5705,6 +5705,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 171.45 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "49fdf796-0655-4ead-b1ff-ed0c3f679b3c")
 		)
@@ -5943,6 +5954,17 @@
 				)
 			)
 		)
+		(property "MPN" "GRM188Z71A475KE15D"
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a75bad69-4c6f-446d-b9ea-0669eb531269")
 		)
@@ -6015,6 +6037,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 171.45 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 171.45 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6183,6 +6216,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 130.81 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73dc8d9c-0ca2-47b2-bb37-d429d6e54e6a")
 		)
@@ -6256,6 +6300,17 @@
 		)
 		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
 			(at 252.73 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESP32-C3-WROOM-02-N4"
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,6 +6453,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 38.1 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "e98ab07b-6e15-40db-8dc9-484f207a3e03")
 		)
@@ -6486,6 +6552,17 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 160.02 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 160.02 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6656,6 +6733,17 @@
 				)
 			)
 		)
+		(property "MPN" "GRM188Z71A475KE15D"
+			(at 233.68 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e16999c-e6f6-4aa3-9230-73342fc0d35c")
 		)
@@ -6727,6 +6815,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 44.45 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 44.45 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6991,6 +7090,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 107.95 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8cf49dba-2344-4e7a-b3dc-c722742eef1f")
 		)
@@ -7071,6 +7181,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 160.02 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ba8d9318-962a-45b2-a20e-f4ec3416475f")
 		)
@@ -7109,7 +7230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4u7"
 			(at 265.43 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7143,6 +7264,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 261.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188Z71A475KE15D"
 			(at 261.62 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7501,7 +7633,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4u7"
 			(at 123.19 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7535,6 +7667,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188Z71A475KE15D"
 			(at 119.38 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7786,6 +7929,17 @@
 				)
 			)
 		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 95.25 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "bfb88ab7-7044-44a3-b410-647630650b77")
 		)
@@ -7880,6 +8034,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 119.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3fef60e-3a45-4959-a6c0-6a6d86915f27")
 		)
@@ -7960,6 +8125,17 @@
 				)
 			)
 		)
+		(property "MPN" "AP2112K-3.3"
+			(at 190.5 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ec43366f-552c-4e12-bf5a-565c75f3e843")
 		)
@@ -8007,7 +8183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 209.55 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8041,6 +8217,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 207.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 207.01 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8123,6 +8310,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188Z71A475KE15D"
 			(at 170.18 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8249,7 +8447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4u7"
 			(at 101.6 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8283,6 +8481,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188Z71A475KE15D"
 			(at 97.79 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8364,6 +8573,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 147.32 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 147.32 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8456,6 +8676,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 82.55 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f65d62b-7174-4a91-b9c3-a6dc4d4b0673")
 		)
@@ -8528,6 +8759,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188Z71A475KE15D"
 			(at 142.24 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8620,6 +8862,17 @@
 				)
 			)
 		)
+		(property "MPN" "GRM188R71H104KA93D"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b368d629-4134-49b5-b363-a6d388239814")
 		)
@@ -8658,7 +8911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 217.17 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,6 +8945,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 214.63 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 214.63 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8784,6 +9048,17 @@
 				)
 			)
 		)
+		(property "MPN" "B3U-1000P"
+			(at 82.55 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55023e67-1d37-4571-9a6d-e9edf106e0aa")
 		)
@@ -8857,6 +9132,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 238.76 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3U-1000P"
+			(at 238.76 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9260,6 +9546,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 147.32 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1e6880b-7f5d-4418-bc39-d73904c4f42d")
 		)
@@ -9418,6 +9715,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 34.29 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B9"
 			(uuid "81413a06-d2f8-40fa-9086-e6023b34317f")
 		)
@@ -9535,6 +9843,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 71.12 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9783,6 +10102,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 62.23 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b3daf65f-25a4-4379-b49c-8fb77f7fc01f")
 		)
@@ -9821,7 +10151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 241.3 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9855,6 +10185,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 238.76 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10249,6 +10590,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188Z71A475KE15D"
 			(at 208.28 38.1 0)
 			(hide yes)
 			(show_name no)
