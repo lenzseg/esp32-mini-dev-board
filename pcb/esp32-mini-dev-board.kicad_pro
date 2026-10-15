@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.24,
-          "width": 0.6
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -64,8 +64,8 @@
           "min_island_area": 10.0,
           "min_thickness": 0.2,
           "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.15,
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.18,
           "thermal_relief_spoke_width": 0.25
         }
       },
@@ -78,8 +78,32 @@
       ],
       "drc_exclusions": [
         [
+          "lib_footprint_issues|163000000|130653000|887d9e53-2b9e-439b-9368-d5d3a3b1afba|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|152700000|130800000|a95b6450-c653-4e10-bd6e-ceaa09545348|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|161507300|116027200|1d962de1-aa31-4c26-861b-54d9af27ba75|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|163000000|98598000|dd1220a9-d6dc-403f-8874-8ab0dabbd9f6|00000000-0000-0000-0000-000000000000",
-          "Nelson: I had to modify the footprint, changing layers of keep out zone and initial pin indicator."
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|163110000|99787000|ad06a20e-1c8d-47da-9d1f-f5e8e47daf40|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|169711500|120319800|9abdb9aa-b9bc-4d1b-8cec-e66d0b5bf657|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|174900000|130800000|ba83efed-1734-4e0a-a25f-2f43bcd5ae41|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -183,6 +207,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +219,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -205,6 +231,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
