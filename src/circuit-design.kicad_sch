@@ -1766,6 +1766,556 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "#lz:res/RES-0001-1002"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10kΩ"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "#LZ_Resistor_SMD:R_0603_1608Metric"
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10kΩ 1% 0.1W 0603 Thick film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "RES-0001-1002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RC0603FR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Resistance" "10kΩ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "0.1W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "#LZ_Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "res/RES-0001-1002_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "res/RES-0001-1002_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "#lz:res/RES-0001-1R00"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1Ω"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "#LZ_Resistor_SMD:R_0603_1608Metric"
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1Ω 1% 0.1W 0603 Thick Film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "RES-0001-1R00"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AC0603FR-071RL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Resistance" "1Ω"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "0.1W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "#LZ_Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "res/RES-0001-1R00_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "res/RES-0001-1R00_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "#lz:res/RES-0001-5101"
 			(pin_numbers
 				(hide yes)
@@ -2041,247 +2591,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#lzg:cap/CAP-0009-0475"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4.7uF"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "#LZ_Capacitor_SMD:C_0603_1608Metric"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://pim.murata.com/en-eu/pim/details/?partNum=GRM188Z71C475KE21D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4.7uF 50V 0603 X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "IPN" "CAP-0009-0475"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "GRM188Z71C475KE21D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Capacitance" "4.7uF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Material" "X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "10%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Status" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "#LZ_Capacitor_SMD:C_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "cap/CAP-0009-0475_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "cap/CAP-0009-0475_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "#lzg:xtl/XTL-0001-32K7"
+		(symbol "#lz:xtl/XTL-0001-32K7"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4575,7 +4885,7 @@
 		(uuid "108d0986-4aa3-4e4d-8f6e-cc3fdd1f66d6")
 	)
 	(rectangle
-		(start 16.51 114.3)
+		(start 13.335 114.3)
 		(end 72.136 163.83)
 		(stroke
 			(width 0.5)
@@ -4599,7 +4909,7 @@
 		(uuid "3ee3ebe3-c6c9-4518-bf44-0f1a1be1eebc")
 	)
 	(rectangle
-		(start 187.706 79.248)
+		(start 187.706 74.93)
 		(end 281.686 163.322)
 		(stroke
 			(width 0.5)
@@ -4711,7 +5021,7 @@
 	)
 	(text "ESP32-C3-WROOM-O2"
 		(exclude_from_sim no)
-		(at 215.9 83.82 0)
+		(at 215.392 78.74 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -4825,6 +5135,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72f90e6c-e3cc-4d0f-bcdd-c3559b51d7e0")
+	)
+	(junction
+		(at 31.75 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "887e878b-7791-4c26-be03-07ccf7e415c8")
 	)
 	(junction
 		(at 58.42 36.83)
@@ -4964,7 +5280,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 109.22) (xy 214.63 139.7)
+			(xy 214.63 110.49) (xy 214.63 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5104,6 +5420,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 91.44) (xy 233.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffa62e2-8903-4588-9b00-2e56f3b1244b")
+	)
+	(wire
+		(pts
 			(xy 229.87 119.38) (xy 237.49 119.38)
 		)
 		(stroke
@@ -5134,16 +5460,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 74.93) (xy 24.13 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27eaeabf-ee37-40ed-9fbc-5645bee1501b")
-	)
-	(wire
-		(pts
 			(xy 26.67 137.16) (xy 33.02 137.16)
 		)
 		(stroke
@@ -5164,7 +5480,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 134.62) (xy 33.02 134.62)
+			(xy 17.78 134.62) (xy 33.02 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5364,6 +5680,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 77.47) (xy 41.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6753b33d-27d9-4098-bf16-290f2d06dec3")
+	)
+	(wire
+		(pts
 			(xy 99.06 60.96) (xy 99.06 59.69)
 		)
 		(stroke
@@ -5384,7 +5710,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 124.46) (xy 237.49 124.46)
+			(xy 199.39 124.46) (xy 237.49 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5604,6 +5930,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 77.47) (xy 24.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79daa63-7abd-4b14-87b6-cea756f97b3d")
+	)
+	(wire
+		(pts
 			(xy 267.97 114.3) (xy 275.59 114.3)
 		)
 		(stroke
@@ -5614,13 +5950,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 96.52) (xy 214.63 101.6)
+			(xy 214.63 96.52) (xy 214.63 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa3b0d6f-b6d6-4dca-8685-43d261841be3")
+	)
+	(wire
+		(pts
+			(xy 31.75 77.47) (xy 24.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6a0c0c-b6ae-4745-9e38-e09ef9b26e6c")
 	)
 	(wire
 		(pts
@@ -5634,7 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 96.52) (xy 207.01 101.6)
+			(xy 199.39 96.52) (xy 199.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5664,7 +6010,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 134.62) (xy 20.32 153.67)
+			(xy 17.78 134.62) (xy 17.78 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5691,16 +6037,6 @@
 			(type default)
 		)
 		(uuid "b3a9ec03-9b52-4ddd-8cd8-fc4d371905c9")
-	)
-	(wire
-		(pts
-			(xy 24.13 77.47) (xy 41.91 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b544af39-679f-4eca-bdd9-c6bf903eaf58")
 	)
 	(wire
 		(pts
@@ -5744,7 +6080,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 93.98) (xy 214.63 96.52)
+			(xy 214.63 91.44) (xy 214.63 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5774,7 +6110,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 96.52) (xy 207.01 96.52)
+			(xy 214.63 96.52) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5804,13 +6140,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 109.22) (xy 207.01 124.46)
+			(xy 199.39 110.49) (xy 199.39 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5b3e7a2-ec4e-4be1-b623-8d3eac86c9d7")
+	)
+	(wire
+		(pts
+			(xy 31.75 77.47) (xy 31.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62d2943-1ead-41a2-879a-64128cc6ffa0")
 	)
 	(wire
 		(pts
@@ -5884,7 +6230,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 74.93) (xy 31.75 78.74)
+			(xy 31.75 74.93) (xy 31.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6374,7 +6720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00abc9ea-e306-43cb-abd4-5f57c8d7cbf1")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 99.06 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6435,7 +6781,7 @@
 		(instances
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6453,7 +6799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "026b437b-df93-4900-9138-52680edcf5ca")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 97.79 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6514,7 +6860,173 @@
 		(instances
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "#PWR010")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#lz:res/RES-0001-1002")
+		(at 107.95 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "069c4df3-9f55-4187-b202-eab11628b1e5")
+		(property "Reference" "R3"
+			(at 107.95 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 107.95 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "#LZ_Resistor_SMD:R_0603_1608Metric"
+			(at 108.204 136.144 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 107.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10kΩ 1% 0.1W 0603 Thick film"
+			(at 107.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "RES-0001-1002"
+			(at 107.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 107.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 107.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 107.95 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 107.95 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 107.95 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 107.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 107.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5effb10e-6b96-4a0d-8bde-ea4941b46e6d")
+		)
+		(pin "1"
+			(uuid "b342b09a-a11f-4d8e-a6b0-f6f9dece5441")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6532,7 +7044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09b1676e-34e6-49f6-92cf-3f93ef6c32f6")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 123.19 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6685,7 +7197,7 @@
 		(instances
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6693,7 +7205,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 214.63 93.98 0)
+		(at 214.63 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6701,10 +7213,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a6ab6f0-edfb-4462-8578-39e1b08e5f0f")
 		(property "Reference" "#PWR021"
-			(at 214.63 97.79 0)
+			(at 214.63 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6715,7 +7226,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 217.17 92.7099 0)
+			(at 212.09 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6726,7 +7237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 93.98 0)
+			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6737,7 +7248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 93.98 0)
+			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6748,7 +7259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 214.63 93.98 0)
+			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,86 +7599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cc6556a-77ab-43f1-9b21-275c1035ee34")
-		(property "Reference" "R5"
-			(at 130.81 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 130.81 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 38.608 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73dc8d9c-0ca2-47b2-bb37-d429d6e54e6a")
-		)
-		(pin "2"
-			(uuid "f3d29d60-74fe-4217-8e11-7244955a5deb")
-		)
-		(instances
-			(project "esp32-mini-dev-board"
-				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RF_Module:ESP32-C3-WROOM-02")
 		(at 252.73 132.08 0)
 		(unit 1)
@@ -7324,7 +7755,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 41.91 157.226 0)
+			(at 41.91 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7394,6 +7825,176 @@
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#lz:res/RES-0001-1002")
+		(at 199.39 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fbb32eb-6310-4f60-a583-eadfea58e301")
+		(property "Reference" "R7"
+			(at 201.93 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 196.85 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "#LZ_Resistor_SMD:R_0603_1608Metric"
+			(at 200.406 106.934 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10kΩ 1% 0.1W 0603 Thick film"
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "RES-0001-1002"
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 201.93 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 201.93 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 201.93 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 199.39 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3da18fbb-925d-47ca-bbd6-420213a7c40c")
+		)
+		(pin "1"
+			(uuid "59a0b341-03ee-4ac5-b8c3-8659b86314e2")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7479,7 +8080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#lzg:cap/CAP-0009-0475")
+		(lib_id "#lz:cap/CAP-0009-0475")
 		(at 170.18 38.1 0)
 		(mirror y)
 		(unit 1)
@@ -7590,7 +8191,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "16V"
 			(at 166.37 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7650,7 +8251,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#lzg:cap/CAP-0009-0475")
+		(lib_id "#lz:cap/CAP-0009-0475")
 		(at 233.68 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -7760,7 +8361,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "16V"
 			(at 229.87 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +8443,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 41.91 154.178 0)
+			(at 41.91 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8075,8 +8676,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 107.95 137.16 90)
+		(lib_id "#lz:res/RES-0001-1002")
+		(at 119.38 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8085,29 +8686,20 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "48cf2b50-8267-45f9-ac25-248ab8f797aa")
-		(property "Reference" "R3"
-			(at 107.95 130.81 90)
+		(uuid "48172753-58ef-4a08-9dd5-9e9c150da9fc")
+		(property "Reference" "R4"
+			(at 121.92 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 107.95 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 138.938 90)
+		(property "Value" "10kΩ"
+			(at 116.84 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8117,8 +8709,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 107.95 137.16 0)
+		(property "Footprint" "#LZ_Resistor_SMD:R_0603_1608Metric"
+			(at 120.396 128.524 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8128,8 +8720,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 107.95 137.16 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 119.38 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8139,16 +8731,115 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "8cf49dba-2344-4e7a-b3dc-c722742eef1f")
+		(property "Description" "10kΩ 1% 0.1W 0603 Thick film"
+			(at 119.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "RES-0001-1002"
+			(at 119.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 119.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 119.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 121.92 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 121.92 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 121.92 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 119.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 119.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "e122dc6f-0bd0-4cd9-9221-2368d69c92c5")
+			(uuid "34452243-85e8-4825-9303-40adb8f6bc79")
+		)
+		(pin "1"
+			(uuid "570ceaee-745f-4589-a86a-077689b864a8")
 		)
 		(instances
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8237,7 +8928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#lzg:cap/CAP-0009-0475")
+		(lib_id "#lz:cap/CAP-0009-0475")
 		(at 261.62 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -8348,7 +9039,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "16V"
 			(at 265.43 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8497,7 +9188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e2aca38-8e99-4713-857e-2533bf81e9ad")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 20.32 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8557,7 +9248,177 @@
 		(instances
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "#PWR01")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#lz:res/RES-0001-1002")
+		(at 214.63 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ea8e3ed-43ea-406f-b393-796fcb7abc0c")
+		(property "Reference" "R8"
+			(at 217.17 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 212.09 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "#LZ_Resistor_SMD:R_0603_1608Metric"
+			(at 215.646 106.934 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10kΩ 1% 0.1W 0603 Thick film"
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "RES-0001-1002"
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 217.17 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 217.17 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 217.17 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c37f508-b95b-44e8-ade4-fd13e4f098e5")
+		)
+		(pin "1"
+			(uuid "7a1e137d-fdeb-411f-bc2f-931f8b0ebc7f")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8641,8 +9502,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 233.68 93.98 0)
+		(lib_id "#lz:res/RES-0001-1R00")
+		(at 130.81 36.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8651,9 +9512,344 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "61f29b07-0a3c-4b12-b6db-cf228d442391")
+		(property "Reference" "R5"
+			(at 130.81 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1Ω"
+			(at 130.81 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "#LZ_Resistor_SMD:R_0603_1608Metric"
+			(at 131.064 35.814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
+			(at 130.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1Ω 1% 0.1W 0603 Thick Film"
+			(at 130.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "RES-0001-1R00"
+			(at 130.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 130.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AC0603FR-071RL"
+			(at 130.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "1Ω"
+			(at 130.81 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 130.81 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 130.81 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 130.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 130.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c74948dd-04e2-4390-b432-4a1bbf1380cd")
+		)
+		(pin "1"
+			(uuid "91bb49de-025a-44e5-84e4-c76e4c9d5359")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#lz:res/RES-0001-1002")
+		(at 238.76 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c37a0ea-d102-4ba6-bff4-8b6e60f3f0bb")
+		(property "Reference" "R9"
+			(at 241.3 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 236.22 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "#LZ_Resistor_SMD:R_0603_1608Metric"
+			(at 239.776 38.354 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 238.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10kΩ 1% 0.1W 0603 Thick film"
+			(at 238.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "RES-0001-1002"
+			(at 238.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 238.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 238.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 241.3 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 241.3 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 241.3 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 238.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 238.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1fb7df6-aa4c-47e0-9989-784b935e6bbb")
+		)
+		(pin "1"
+			(uuid "2eef3931-517c-462a-89d0-951b6c1d2542")
+		)
+		(instances
+			(project "esp32-mini-dev-board"
+				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 233.68 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "6c76357e-35da-4e78-bc1f-e9df2136e00a")
 		(property "Reference" "#PWR022"
-			(at 233.68 97.79 0)
+			(at 233.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8664,7 +9860,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 236.22 92.7099 0)
+			(at 230.378 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8675,7 +9871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 93.98 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8686,7 +9882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 93.98 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8697,7 +9893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 233.68 93.98 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8720,7 +9916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#lzg:cap/CAP-0009-0475")
+		(lib_id "#lz:cap/CAP-0009-0475")
 		(at 119.38 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -8831,7 +10027,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "16V"
 			(at 123.19 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9059,7 +10255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d4ac858-36bb-4d2c-aed9-d14356524710")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 100.7111 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,89 +10401,7 @@
 		(instances
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f1256b5-98e0-4562-90fa-f3ec8d2fc366")
-		(property "Reference" "R4"
-			(at 121.92 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 121.92 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 117.602 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3fef60e-3a45-4959-a6c0-6a6d86915f27")
-		)
-		(pin "2"
-			(uuid "fd677713-5838-43a1-bf71-0a3806419848")
-		)
-		(instances
-			(project "esp32-mini-dev-board"
-				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "R4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9383,88 +10497,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 207.01 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "816a84d4-e6c4-4701-82d9-07eb80ef0c9c")
-		(property "Reference" "R7"
-			(at 209.55 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 209.55 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.232 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 207.01 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "52bb94da-3716-4a02-8c64-b18a9368dce5")
-		)
-		(pin "2"
-			(uuid "75c3d8b3-fc03-4942-862a-81baaa5b7ce2")
-		)
-		(instances
-			(project "esp32-mini-dev-board"
-				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 63.5 153.67 0)
 		(unit 1)
@@ -9544,7 +10576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#lzg:cap/CAP-0009-0475")
+		(lib_id "#lz:cap/CAP-0009-0475")
 		(at 97.79 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -9655,7 +10687,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "16V"
 			(at 101.6 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +10747,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#lzg:xtl/XTL-0001-32K7")
+		(lib_id "#lz:xtl/XTL-0001-32K7")
 		(at 160.02 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -9935,88 +10967,6 @@
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 214.63 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d88f1f0-afe7-44d5-b561-ecc41ad8d0a2")
-		(property "Reference" "R8"
-			(at 217.17 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 217.17 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.852 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 214.63 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b08375f3-1012-43d2-b3d2-7b174d548b81")
-		)
-		(pin "2"
-			(uuid "c9988ebe-dece-472e-9aff-de11bd3e1402")
-		)
-		(instances
-			(project "esp32-mini-dev-board"
-				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10345,7 +11295,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 153.67 0)
+		(at 17.78 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10355,8 +11305,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c686f1ed-7021-44d9-97f8-f789998d002f")
-		(property "Reference" "#PWR02"
-			(at 20.32 160.02 0)
+		(property "Reference" "#PWR01"
+			(at 17.78 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10367,7 +11317,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 154.9399 0)
+			(at 20.32 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10378,7 +11328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 153.67 0)
+			(at 17.78 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10389,7 +11339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 153.67 0)
+			(at 17.78 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10400,7 +11350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 153.67 0)
+			(at 17.78 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10416,7 +11366,7 @@
 		(instances
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11351,7 +12301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e563bb98-20ea-41a2-a0a2-00e9630bb121")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 81.28 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11481,89 +12431,7 @@
 		(instances
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 238.76 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e97f18a3-c80d-41ae-a692-83b7dc966e12")
-		(property "Reference" "R9"
-			(at 241.3 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 241.3 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.982 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 238.76 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97d48480-5ce0-444b-91d1-a2b8f0978162")
-		)
-		(pin "2"
-			(uuid "c85423ad-c0a9-4d8f-8381-bc8cbb54428e")
-		)
-		(instances
-			(project "esp32-mini-dev-board"
-				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "R9")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11886,7 +12754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "#lzg:cap/CAP-0009-0475")
+		(lib_id "#lz:cap/CAP-0009-0475")
 		(at 208.28 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -11997,7 +12865,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "16V"
 			(at 212.09 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12146,7 +13014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7589152-4acf-4f2e-aecb-06381d277d88")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 146.05 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12299,7 +13167,7 @@
 		(instances
 			(project "esp32-mini-dev-board"
 				(path "/fce4255d-220c-4173-a7af-d7c1fd356d20/781e57be-1a87-472e-89a8-30449ea21b35"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
